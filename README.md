@@ -4,7 +4,7 @@
 - <b>fc_downloader_cmd_dev</b> - install game using <a href=https://git-scm.com/downloads/win>Official GitHub Portable</a><br>
 Just script with GitHub Portable to download Fortress Connected into your sourcemods folder.
 - <b>fc_assets_populator</b> - install game assets using <a href=https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip>Official SteamCMD</a><br>
-Quick and dirty SteamCMD script to install absent assets for Fortress Connected (https://github.com/Lambdagon/fc).
+Quick and dirty SteamCMD script to install absent assets for Fortress Connected.
 If you see Red Errors and Pink-Black Squares in Fortress Connected - use this script.
 
 1. Download and run script
