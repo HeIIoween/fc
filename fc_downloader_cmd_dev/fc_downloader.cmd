@@ -56,13 +56,13 @@ set /p choice=Do you want to update it? (Y/N):
 		.\Misc\PortableGit\bin\git --work-tree="c:\Program Files (x86)\steam\steamapps\sourcemods\fc" --git-dir="c:\Program Files (x86)\steam\steamapps\sourcemods\fc\.git" checkout .
 		.\Misc\PortableGit\bin\git --work-tree="c:\Program Files (x86)\steam\steamapps\sourcemods\fc" --git-dir="c:\Program Files (x86)\steam\steamapps\sourcemods\fc\.git" pull
 		echo %ESC%[92mWell done. Restart Steam and play FC%ESC%[0m
-		echo %ESC%[31;1mFatal. Not a git repository - restart downloader and choose N%ESC%[0m
+		echo If it is %ESC%[31;1mFatal. Not a git repository%ESC%[0m - restart downloader and choose N
 		pause
 		taskkill /IM conhost.exe /F
 		exit
 	) else (
 		cls
-		echo %ESC%[31;1mThis will fix installation folder%ESC%[0m
+		echo %ESC%[31;1mThis will fix installation folder to fix broken download%ESC%[0m
 		pause
 		rd /s /q "c:\Program Files (x86)\steam\steamapps\sourcemods\fc\.git"
 		echo %ESC%[92mDone. Press SPACE%ESC%[0m
@@ -77,6 +77,11 @@ set /p choice=It's the recommended installation location. Would you like to inst
 		cls
 		echo Installing %ESC%[38;5;141mFortress Connected%ESC%[0m to the %ESC%[96mSourcemods%ESC%[0m folder...
 		.\Misc\PortableGit\bin\git clone -b dev https://github.com/Lambdagon/fc.git "c:\Program Files (x86)\steam\steamapps\sourcemods\fc"
+		echo %ESC%[38;5;141mFortress Connected%ESC%[0m installed.
+		pause
+		taskkill /IM conhost.exe /F
+		exit
+		call :SetEnd
 	) else (
 		cls
 		call :setManual
@@ -104,4 +109,7 @@ set /p choice=Would you like to extract in %ESC%[96mcurrent%ESC%[0m folder? You 
 		pause
 		taskkill /IM conhost.exe /F
 		exit
-	)	
+	)
+
+:setEnd
+	
