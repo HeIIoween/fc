@@ -7,8 +7,8 @@ Just script with GitHub Portable to download Fortress Connected into your source
 Quick and dirty SteamCMD script to install absent assets for Fortress Connected.<br>
 If you see Red Errors and Pink-Black Squares in Fortress Connected - use this script.<br><br>
 Assuming are installed:<br>
-- Steam
-- Team Fortress 2 (<b>steam://install/440</b>)
-- Source SDK 2013 singleplayer (<b>steam://install/243730</b>)
-- Source SDK 2013 multiplayer (<b>steam://install/243750</b>)<br><br>
+&nbsp;- Steam
+&nbsp;- Team Fortress 2 (<b>steam://install/440</b>)
+&nbsp;- Source SDK 2013 singleplayer (<b>steam://install/243730</b>)
+&nbsp;- Source SDK 2013 multiplayer (<b>steam://install/243750</b>)<br><br>
 If you have ruined any steam game by this - just verify game cache
