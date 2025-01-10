@@ -8,5 +8,7 @@ Quick and dirty SteamCMD script to install absent assets for Fortress Connected.
 If you see Red Errors and Pink-Black Squares in Fortress Connected - use this script.<br><br>
 Assuming are installed:<br>
 - Steam
-- Source SDK 2013 singleplayer (<b>steam://install/243730</b>) <br>
+- Team Fortress 2 (<b>steam://install/440</b>)
+- Source SDK 2013 singleplayer (<b>steam://install/243730</b>)
+- Source SDK 2013 multiplayer (<b>steam://install/243750</b>)
 If you have ruined any steam game by this - just verify game cache
