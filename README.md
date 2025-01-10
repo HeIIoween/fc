@@ -10,5 +10,5 @@ Assuming are installed:<br>
 - Steam
 - Team Fortress 2 (<b>steam://install/440</b>)
 - Source SDK 2013 singleplayer (<b>steam://install/243730</b>)
-- Source SDK 2013 multiplayer (<b>steam://install/243750</b>)
+- Source SDK 2013 multiplayer (<b>steam://install/243750</b>)<br>
 If you have ruined any steam game by this - just verify game cache
