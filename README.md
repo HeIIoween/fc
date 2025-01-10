@@ -5,6 +5,6 @@
 Just script with GitHub Portable to download Fortress Connected into your sourcemods folder.
 - <b>fc_assets_populator</b> - install game assets using <a href=https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip>Official SteamCMD</a><br>
 Quick and dirty SteamCMD script to install absent assets for Fortress Connected.<br>
-If you see Red Errors and Pink-Black Squares in Fortress Connected - use this script.
+If you see Red Errors and Pink-Black Squares in Fortress Connected - use this script.<br>
 Assuming Steam and Source SDK 2013 singleplayer (**steam://install/243730**)  are installed in default location.
 If you have ruined any steam game by this - just verify game cache
