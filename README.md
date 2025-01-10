@@ -1,4 +1,4 @@
-# fc
+# Fortress Connected Windows batch scripts
 <a href=https://github.com/Lambdagon/fc>Fortress Connected</a> is a Team Fortress 2 Source Half-Life 2 cooperative mod based on Lambda Fortress.<br><br>
 <a href=https://github.com/HeIIoween/fc/archive/refs/heads/main.zip>Download</a> Windows Batch Scripts:<br><br>
 - <b>fc_downloader_cmd_dev</b> - install game using <a href=https://git-scm.com/downloads/win>Official GitHub Portable</a><br>
